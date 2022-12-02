@@ -1,0 +1,19 @@
+Iniciar o servidor sem o xampp: 
+-> php -S localhost:5050
+-> php artisan serve
+
+Rodar código php no console:
+-> php artisan tinker
+
+Testar conexão do banco de dados pelo terminal:
+-> 1) php artisan tinker
+-> 2) DB:connection()->getPdo()
+
+Criar controllers com artisan:
+-> php artisan make:controller Site/CategoryController --invokable
+    -> --invokable cria uma classe apenas com um método
+-> php artisan make:controller Site/CategoryController -r
+    -> -r cria uma classe preparada pra CRUD
+
+Ajuda sobre como gerar os arquivos:
+-> php artisan make:controller tantofaz/tantofaz --help
